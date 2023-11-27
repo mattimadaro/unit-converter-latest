@@ -1,0 +1,105 @@
+body {
+    margin: 0;
+    text-align: center;
+}
+
+#container {
+    width: 550px;
+    height: 730px;
+    margin: 0 auto;
+    background: #FDE68A;
+}
+
+#input-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 285px;
+    background: #FBBF24;
+    padding-bottom: 34px;
+}
+
+h1 {
+    color: #FFFBEB;
+    text-align: center;
+    font-family: Inter;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 38px; /* 135.714% */
+    letter-spacing: -0.84px;
+}
+
+.input-field {
+    width: 117px;
+    height: 83px;
+    background: #FBBF24;
+    border-radius: 5px;
+    border: 2px solid #D97706;
+    text-align: center;
+    color: #FFFBEB;
+    font-family: Inter;
+    font-size: 58px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 24.393px;
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.convert-button {
+    border-radius: 5px;
+    background: #D97706;
+    padding: 9px 27.5px;
+    border: none;
+    color: #fff;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; 
+}
+
+#conversions-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.conversions {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 100px;  
+    background: #FBBF24;  
+    border-radius: 4.681px 0px 0px 0px;
+    margin-top: 30px;
+}
+
+h3 {
+    color: #92400E;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 20px;
+    margin: 20px 0 0 0;
+}
+
+.conversions-style {
+    color: #D97706;
+    text-align: center;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 20px;
+}
